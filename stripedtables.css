@@ -1,0 +1,23 @@
+body{
+	font-size: 20px;	
+}
+
+table{
+	width:100%;
+	border:1px solid green;
+	border-collapse: collapse; 
+  	border-spacing: 0px;  	
+}
+
+td{
+	border:1px solid green;
+	text-align:center;
+}
+
+table td.striped{
+		background:#97B7BC;
+}
+
+table td.green_striped {
+		background:#A3E6AB;
+}
