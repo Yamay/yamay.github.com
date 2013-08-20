@@ -18,71 +18,74 @@
 	</script>
    </head> 
 <body>  
-	<h2>First Table</h2>	  
-  	  <table id="table1">
-  	  <tr>
-  	  	<td>1</td>
-  	  	<td colspan="2" rowspan="3">2</td>
-  	  	<td>3</td>
-  	  	<td>4</td>
-  	  	<td rowspan="3">5</td>
-  	  	<td>6</td>
-  	  </tr>
-  	  <tr>
-  	  	<td>7</td>
-  	  	<td>8</td>
-  	  	<td>9</td>
-  	  	<td>10</td>
-  	  </tr>
-  	  <tr>
-  	  	<td>11</td>
-  	  	<td>12</td>
-  	  	<td>13</td>
-  	  	<td>14</td>
-  	  </tr>
-  	  <tr>
-  	  	<td>15</td>
-  	  	<td>16</td>
-  	  	<td>17</td>
-  	  	<td>18</td>
-  	  	<td>19</td>
-  	  	<td>20</td>
-  	  	<td>21</td>
-  	  </tr>
-  	  <tr>
-  	  	<td>22</td>
-  	  	<td>23</td>
-  	  	<td colspan="4">24</td>
-  	  	<td>25</td>
-  	  </tr>
-  	  <tr>
-  	  	<td>26</td>
-  	  	<td>27</td>
-  	  	<td>28</td>
-  	  	<td>29</td>
-  	  	<td>30</td>
-  	  	<td>31</td>
-  	  	<td>32</td>
-  	  </tr>
-  	  <tr>
-  	  	<td>33</td>
-  	  	<td>34</td>
-  	  	<td>35</td>
-  	  	<td>37</td>
-  	  	<td colspan="2" rowspan="2">38</td>
-  	  	<td>39</td>
-  	  </tr>
-  	  <tr>
-  	  	<td>40</td>
-  	  	<td>41</td>
-  	  	<td>42</td>
-  	  	<td>43</td>
-  	  	<td>44</td>
-  	  </tr>
-  	  </table>   
-	<h2>Second Table</h2>
+	<h3>Using function with different parameters value gives next effects</h3>
+	<h3>First Table</h3>	  		
+	<div class="code">$.stripedTable('table1','striped',0,0);</div>	  
+	<table id="table1">
+		<tr>
+			<td>1</td>
+	  	  	<td colspan="2" rowspan="3">2</td>
+	  	  	<td>3</td>
+	  	  	<td>4</td>
+	  	  	<td rowspan="3">5</td>
+	  	  	<td>6</td>
+		</tr>
+		<tr>
+  	  		<td>7</td>
+	  	  	<td>8</td>
+	  	  	<td>9</td>
+	  	  	<td>10</td>
+		</tr>
+		<tr>
+  	  		<td>11</td>
+	  	  	<td>12</td>
+	  	  	<td>13</td>
+	  	  	<td>14</td>
+		</tr>
+		<tr>
+  	  		<td>15</td>
+	  	  	<td>16</td>
+	  	  	<td>17</td>
+	  	  	<td>18</td>
+	  	  	<td>19</td>
+	  	  	<td>20</td>
+	  	  	<td>21</td>
+		</tr>
+		<tr>
+	  	  	<td>22</td>
+	  	  	<td>23</td>
+	  	  	<td colspan="4">24</td>
+	  	  	<td>25</td>
+		</tr>
+		<tr>
+	  	  	<td>26</td>
+	  	  	<td>27</td>
+	  	  	<td>28</td>
+	  	  	<td>29</td>
+	  	  	<td>30</td>
+	  	  	<td>31</td>
+	  	  	<td>32</td>
+		</tr>
+		<tr>
+  	  		<td>33</td>
+	  	  	<td>34</td>
+	  	  	<td>35</td>
+	  	  	<td>37</td>
+  		  	<td colspan="2" rowspan="2">38</td>
+	  	  	<td>39</td>
+		</tr>
+		<tr>
+  	  		<td>40</td>
+	  	  	<td>41</td>
+	  	  	<td>42</td>
+	  	  	<td>43</td>
+	  	  	<td>44</td>
+		</tr>
+	</table>   
+	<h3>Second Table</h3>
+	<div class="code">$.stripedTable('table2','striped',1,0);</div>
 	<table id="table2">
-		  <tr>
+		<tr>
 		  	<td>A</td>
 		  	<td rowspan="4">B</td>
 		  	<td>C</td>
@@ -91,8 +94,8 @@
 		  	<td>F</td>
 		  	<td>G</td>
 		  	<td>H</td>
-		  </tr>
-		  <tr>
+		</tr>
+		<tr>
 		  	<td>I</td>
 		  	<td>J</td>
 		  	<td>K</td>
@@ -100,29 +103,29 @@
 		  	<td>M</td>
 		  	<td rowspan="3">N</td>
 		  	<td>O</td>
-		  </tr>
-		  <tr>
-		  	<td>P</td>
+		</tr>
+		<tr>
+			<td>P</td>
 		  	<td>Q</td>
 		  	<td colspan="2" rowspan="3">S</td>
 		  	<td>T</td>
 		  	<td>U</td>
-		  </tr>
-		  <tr>
+		</tr>
+		<tr>
 		  	<td>V</td>
 		  	<td>W</td>
 		  	<td>X</td>
 		  	<td>Y</td>
-		  </tr>
-		  <tr>
+		</tr>
+		<tr>
 		  	<td>Z</td>
 		  	<td>A1</td>
 		  	<td>B1</td>
 		  	<td>C1</td>
 		  	<td>D1</td>
 		  	<td>E1</td>
-		  </tr>
-		  <tr>
+		</tr>
+		<tr>
 		  	<td>F1</td>
 		  	<td>G1</td>
 		  	<td>H1</td>
@@ -131,16 +134,16 @@
 		  	<td>K1</td>
 		  	<td>L1</td>
 		  	<td>M1</td>
-		  </tr>
-		  <tr>
+		</tr>
+		<tr>
 		  	<td>N1</td>
 		  	<td>O1</td>
 		  	<td>P1</td>
 		  	<td>Q1</td>
 		  	<td colspan="3">R1</td>
 		  	<td>S1</td>
-		  </tr>
-		  <tr>
+		</tr>
+		<tr>
 		  	<td>T1</td>
 		  	<td>U1</td>
 		  	<td>V1</td>
@@ -149,17 +152,18 @@
 		  	<td>Y1</td>
 		  	<td>Z1</td>
 		  	<td>A2</td>
-		  </tr>
-		</table>
-	<h2>Third Table</h2>
+		</tr>
+	</table>
+	<h3>Third Table</h3>
+	<div class="code">$.stripedTable('table3','green_striped',1,1);</div>
 	<table id="table3">
 		<tr>
 		  	<td>1</td>
 			<td colspan="2">2</td>
 			<td>3</td>
 			<td>4</td>
-		 </tr>
-		 <tr>
+		</tr>
+		<tr>
 		  	<td>5</td>
 			<td>6</td>
 			<td>7</td>
@@ -184,6 +188,6 @@
 			<td>20</td>
 			<td>21</td>
 		</tr>
-	</table>				  	  			  	  
+	</table>					  	  			  	  
   </body>
 </html>

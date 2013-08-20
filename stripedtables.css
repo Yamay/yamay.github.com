@@ -1,7 +1,7 @@
 body{
 	margin:0px auto;
-	width:800px;	
-	font-size: 20px;		
+	width:800px;
+	font-size: 20px;	
 }
 
 table{
@@ -23,3 +23,10 @@ table td.striped{
 table td.green_striped {
 		background:#A3E6AB;
 }
+
+div.code{
+	margin-bottom:10px;
+	padding:10px;
+	background:#D4D4D4;
+	color:#3F3FFF;
+} 
